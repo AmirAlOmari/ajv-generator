@@ -12,7 +12,6 @@
     "test:e2e": "echo \"Error: test:e2e is not yet supported for ajv-generator\" && exit 1",
     "test:e2e:watch": "echo \"Error: test:e2e:watch is not yet supported for ajv-generator\" && exit 1",
     "publish": "./tools/scripts/publish-ajv-generator.sh",
-    "prepublish": "yarn build",
     "lint": "nx lint",
     "format": "nx format:write --all"
   },
