@@ -1,4 +1,4 @@
-import type { Schema } from 'ts-json-schema-generator';
+import type { Schema } from '@amir.best/ts-json-schema-generator';
 
 export type AjvJson = {
   requestSchema: Schema;

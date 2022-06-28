@@ -1,5 +1,5 @@
 import type ts from 'typescript';
-import { Schema, SchemaGenerator } from 'ts-json-schema-generator';
+import { Schema, SchemaGenerator } from '@amir.best/ts-json-schema-generator';
 
 import type { CustomSchemaGeneratorInterface } from './custom-schema-generator.interface';
 import { DEFAULT_JSON_SCHEMA } from './constants';
