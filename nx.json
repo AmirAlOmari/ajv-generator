@@ -1,0 +1,20 @@
+{
+  "extends": "@nrwl/workspace/presets/core.json",
+  "npmScope": "ajv-generator",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/workspace"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "MmI4ZGE4YmQtODI3ZS00YWQxLTk5MDEtYjU3MDVmYzY1MjhmfHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "defaultProject": "ajv-generator"
+}

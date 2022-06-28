@@ -1,0 +1,14 @@
+{
+  "name": "@devcubyn/ajv-generator",
+  "version": "1.0.1",
+  "license": "ISC",
+  "bin": {
+    "generate-ajv": "./src/bin/index.js"
+  },
+  "dependencies": {
+    "typescript": "~4.4.3"
+  },
+  "peerDependencies": {
+    "@devcubyn/carotte-runtime": "^6.0.0"
+  }
+}
