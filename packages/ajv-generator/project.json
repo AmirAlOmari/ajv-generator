@@ -1,5 +1,4 @@
 {
-  "root": "packages/ajv-generator",
   "sourceRoot": "packages/ajv-generator/src",
   "projectType": "library",
   "targets": {
