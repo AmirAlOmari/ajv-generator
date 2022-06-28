@@ -1,7 +1,7 @@
-import type * as TSJ from 'ts-json-schema-generator';
+import type * as TSJ from '@amir.best/ts-json-schema-generator';
 import glob from 'glob-promise';
 import ts from 'typescript';
-import { createFormatter, createParser } from 'ts-json-schema-generator';
+import { createFormatter, createParser } from '@amir.best/ts-json-schema-generator';
 
 import { CustomSchemaGenerator } from './custom-schema-generator';
 import { AjvGenerator } from './ajv-generator';
