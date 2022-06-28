@@ -14,7 +14,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/packages/ajv-generator"],
       "options": {
-        "jestConfig": "packages/ajv-generator/jest.config.js",
+        "jestConfig": "packages/ajv-generator/jest.config.ts",
         "passWithNoTests": true
       }
     },
