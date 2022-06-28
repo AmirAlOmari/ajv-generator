@@ -1,5 +1,5 @@
 /* eslint-disable */
-module.exports = {
+export default {
   displayName: 'ajv-generator',
   preset: '../../jest.preset.js',
   globals: {
