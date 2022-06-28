@@ -1,4 +1,5 @@
 {
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/ajv-generator/src",
   "projectType": "library",
   "targets": {

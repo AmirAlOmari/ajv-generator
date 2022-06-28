@@ -16,5 +16,6 @@
       }
     }
   },
-  "defaultProject": "ajv-generator"
+  "defaultProject": "ajv-generator",
+  "$schema": "./node_modules/nx/schemas/nx-schema.json"
 }
